@@ -20,7 +20,7 @@
 
 ### 파일을 다운받아 사용하는 방법
 
-[Releases](https://github.com/yangbeom/BugsElectronPlayer/releases/)에서 해당 플랫폼에 맞는 압축파일을 받아 압축을 푼뒤 실행하면 됩니다.
+[Releases](https://github.com/hotheadfactory/OrangePlayer/releases/)에서 해당 플랫폼에 맞는 압축파일을 받아 압축을 푼뒤 실행하면 됩니다.
 
 ## 이전 버전과 달라진 점
 
