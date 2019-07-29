@@ -1,12 +1,8 @@
-# BugsElectronPlayer
+# OrangePlayer
 
-![Downloads](https://img.shields.io/github/downloads/yangbeom/BugsElectronPlayer/total.svg?style=flat-square)
+**OrangePlayer**는 벅스 웹플레이어를 [Electron](https://github.com/electron/electron)에서 구동한 플레이어입니다.
 
-**BugsElectronPlayer**는 벅스 웹플레이어를
-[Electron](https://github.com/electron/electron) 에서 구동한 플레이어입니다.
-
-[벅스](http://www.bugs.co.kr)의 공식 플레이어가 아니며 벅스에서 요청시 언제든
-내려 갈 수 있습니다.
+[벅스](http://www.bugs.co.kr)의 공식 플레이어가 아니며 벅스에서 요청 시 언제든 내려갈 수 있습니다.
 
 기본적으로 벅스 웹플레이어와 사용법은 같습니다.
 
@@ -24,12 +20,11 @@
 
 ### 파일을 다운받아 사용하는 방법
 
-[Releases](https://github.com/yangbeom/BugsElectronPlayer/releases/)
-에서 해당 플랫폼에 맞는 압축파일을 받아 압축을 푼뒤 실행하면 됩니다.
+[Releases](https://github.com/yangbeom/BugsElectronPlayer/releases/)에서 해당 플랫폼에 맞는 압축파일을 받아 압축을 푼뒤 실행하면 됩니다.
 
-## 이전 버전과 달라진점
+## 이전 버전과 달라진 점
 
-- 기존 플래시를 이용하던 버전에서 html5를 이용하는 버전으로 바뀌었습니다.
+- 포크 후 리브랜딩. 내 앨범 기능에 접근 불가능했던 문제가 해결되었습니다.
 
 ## 추가기능
 
@@ -49,12 +44,8 @@
 이전 버전의 문제였던 시스템에 해당 shortcut이 등록되어 있으면 우선순위에 밀려
 shortcut이 작동 하지 않습니다.
 
-- MacOS Siera 에서 capslock을 이용한 input method change 기능이 정상 작동 하지
+- MacOS Sierra 에서 capslock을 이용한 input method change 기능이 정상 작동 하지
     않을 수 있습니다.
-
-## BugsElectronPlayer와 함께해 주시는 분들
-- [@perillamint](https://github.com/perillamint)
-- [@anesin1109](https://github.com/anesin1109)
 
 ## License
 
