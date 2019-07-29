@@ -29,7 +29,8 @@ function createWindow(){
         width: 384,
         height: 710,
         resizable: false, //크기 변환 불가능
-        webPreferences:{
+        icon: __dirname + '/icon.icns',
+	webPreferences:{
             plugins: true,
             preload: path.join(__dirname, 'preload.js')
         }
@@ -37,14 +38,12 @@ function createWindow(){
 
     mainWindow = new BrowserWindow(preference)
     mainWindow.loadURL('http://music.bugs.co.kr/newPlayer?autoplay=false&html5=true')
-
+    mainWindow.setMenu(null)
     mainWindow.show()
 }
 
 app.on('ready', () =>{
-    console.log(configs)
-    createWindow()
-        try
+    try
     {
         configs = require('./configs.json')
     }
